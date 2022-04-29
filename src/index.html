@@ -4,40 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Woodenhot</title>
 </head>
 <body>
     <header class="header">
-        <nav>
-            <ul>
-                <li><a href="#">
-                    Wooden Furniture
-                </a></li>
-                <li><a href="#">
-                    About
-                </a></li>
-                <li><a href="#">
-                    Stories
-                </a></li>
-            </ul>
-        </nav>
-        <div class="logo">
-            <svg src="./images/header/logo_woodenhot.svg" alt="logo">
-                <use>
-
-                </use>
-            </svg>
+        <div class="container header__container">
+            <nav class="header__nav">
+                <ul class="list header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link">
+                            Wooden Furniture
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">
+                            About
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">
+                            Stories
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo">
+               <img src="./images/header/logo.png" alt="logo" width="190" height="36">
+            </div>
         </div>
     </header>
     <section class="hero">
-        <h1>
-            Furniture designed to live in harmony, creating distinctive and timeless spaces
-        </h1>
-        <a href="#" type="button">
-            Discover now
-        </a>
-        <a href="#">Do you know what is your decor style?</a>
+        <div class="container hero__container">
+            <h1 class="hero__title">
+                Furniture designed to live in harmony, creating distinctive and timeless spaces
+            </h1>
+            <a href="#" type="button" class="hero_button_white">
+                Discover now
+            </a>
+        </div>
+        <div class="hero_button_wrapper">
+            <a href="#" type="button" class="hero_button_black">
+                Do you know what is your decor style?
+            </a>
+        </div>
     </section>
     <section class="advantages">
         <ul>
