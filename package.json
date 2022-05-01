@@ -1,11 +1,12 @@
 {
-  "name": "woodenhot",
+  "name": "Woodenhot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/DariaIkon/Woodenhot",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Woodenhot/"
   },
   "repository": {
     "type": "git",
@@ -15,13 +16,15 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DariaIkon/Woodenhot/issues"
+    "url": "https://github.com/DariaIkon/Woodenhot/issue"
   },
-  "homepage": "https://github.com/DariaIkon/Woodenhot#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "cssnano": "^4.1.11",
+    "htmlnano": "^0.2.9",
+    "parcel-bundler": "^1.12.5",
+    "posthtml": "^0.11.6"
   },
   "dependencies": {
-    "axios": "^0.27.2"
+    "sass": "^1.51.0"
   }
 }
