@@ -22,10 +22,10 @@
     "cssnano": "^4.1.11",
     "htmlnano": "^0.2.9",
     "parcel-bundler": "^1.12.5",
-    "posthtml": "^0.11.6"
+    "posthtml": "^0.11.6",
+    "swiper": "^8.1.4"
   },
   "dependencies": {
-    "sass": "^1.51.0",
-    "swiper": "^8.1.4"
+    "sass": "^1.51.0"
   }
 }
