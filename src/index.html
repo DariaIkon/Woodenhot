@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./styles/style.css">
     <title>Woodenhot</title>
 </head>
@@ -201,94 +199,116 @@
         <div class="review__images container">
             <h3 class="review__title">Our pieces inside your home</h3>
             <p class="review__subtitle">Get inspired by our products in real-life. Tag us and be featured!</p>
-            <!-- <div class="swiper"> -->
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-1.jpg" alt="review images 1">
+            <div class="swiper image-slider">
+                <div class="swiper mySwiper image-swiper">
+                    <div class="swiper-wrapper image-wrapper">
+                        <div class="swiper-slide slider-item">
+                            <img class="slider-img" src="./images/review_images/gallery-1.jpg" alt="review images 1">
+                            <div class="slider-img__icon">
+                                <img src="./images/review_images/insta.svg" alt="insta">
+                                <p class="slider-img__text">paula.rl</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-item">
+                            <img class="slider-img" src="./images/review_images/gallery-2.jpg" alt="review images 2">
+                            <div class="slider-img__icon">
+                                <img src="./images/review_images/insta.svg" alt="insta">
+                                <p class="slider-img__text">linda.m.karlsen</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-item">
+                            <img class="slider-img" src="./images/review_images/gallery-3.jpg" alt="review images 3">
+                            <div class="slider-img__icon">
+                                <img src="./images/review_images/insta.svg" alt="insta">
+                                <p class="slider-img__text">martagtarrio_</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-item">
+                            <img class="slider-img" src="./images/review_images/gallery-1.jpg" alt="review images 4">
+                            <div class="slider-img__icon">
+                                <img src="./images/review_images/insta.svg" alt="insta">
+                                <p class="slider-img__text">paula.rl</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-item">
+                            <img class="slider-img" src="./images/review_images/gallery-2.jpg" alt="review images 5">
+                            <div class="slider-img__icon">
+                                <img src="./images/review_images/insta.svg" alt="insta">
+                                <p class="slider-img__text">linda.m.karlsen</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-item">
+                            <img class="slider-img" src="./images/review_images/gallery-3.jpg" alt="review images 6">
+                            <div class="slider-img__icon">
+                                <img src="./images/review_images/insta.svg" alt="insta">
+                                <p class="slider-img__text">martagtarrio_</p>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-2.jpg" alt="review images 1">
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-3.jpg" alt="review images 1">
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-1.jpg" alt="review images 1">
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-2.jpg" alt="review images 1">
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-3.jpg" alt="review images 1">
-                    </div>
-
+                    <div class="swiper-pagination"></div>          
                 </div>
-            </div>
-            <!-- Additional required wrapper -->
-            <!-- <div class="swiper-wrapper"> -->
-            <!-- Slides -->
-            <!-- <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-1.jpg" alt="review images 1">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-2.jpg" alt="review images 1">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-3.jpg" alt="review images 1">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-1.jpg" alt="review images 1">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-2.jpg" alt="review images 1">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/review_images/gallery-3.jpg" alt="review images 1">
-                    </div>
-                </div> -->
-            <!-- If we need pagination -->
-            <!-- <div class="swiper-pagination"> -->
-
-            <!-- </div> -->
-            <!-- </div> -->
-        </div>
-        <div class="review__message container">
-            <div>
-                <p class="review__text">"The team from Woodendot has displayed utmost professionalism from order to
-                    deliver and customer support. We
-                    placed an
-                    order to the UK and would definitely recommend friends to order from Woodendot!"</p>
-                <p class="review__author">R. Aoun, United Kingdom</p>
-            </div>
-            <div>
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                <p></p>
-                <p></p>
             </div>
         </div>
     </section>
-
+    <section class="second-slider">
+        <div class="second__review container">
+            <div class="review__message">
+                <div class="swiper mySwiper textSlider">
+                    <div class="swiper-wrapper second-wrapper">
+                        <div class="swiper-slide review__slide">
+                            <p class="review__text">
+                                "The team from Woodendot has displayed utmost professionalism from order to deliver and customer
+                                support. We placed an order to the UK and would definitely
+                                recommend friends to order from Woodendot!"
+                            </p>
+                            <p class="review__author">R. Aoun, United Kingdom</p>
+                        </div>
+                        <div class="swiper-slide review__slide">
+                            <p class="review__text">
+                                "The team from Woodendot has displayed utmost professionalism from order to deliver and customer
+                                support. We placed an order to the UK and would definitely
+                                recommend friends to order from Woodendot!"
+                            </p>
+                            <p class="review__author">R. Aoun, United Kingdom</p>
+                        </div>
+                        <div class="swiper-slide review__slide">
+                            <p class="review__text">
+                                "The team from Woodendot has displayed utmost professionalism from order to deliver and customer
+                                support. We placed an order to the UK and would definitely
+                                recommend friends to order from Woodendot!"
+                            </p>
+                            <p class="review__author">R. Aoun, United Kingdom</p>
+                        </div>
+                        <div class="swiper-slide review__slide">
+                            <p class="review__text">
+                                "The team from Woodendot has displayed utmost professionalism from order to deliver and customer
+                                support. We placed an order to the UK and would definitely
+                                recommend friends to order from Woodendot!"
+                            </p>
+                            <p class="review__author">R. Aoun, United Kingdom</p>
+                        </div>
+                        <div class="swiper-slide review__slide">
+                            <p class="review__text">
+                                "The team from Woodendot has displayed utmost professionalism from order to deliver and customer
+                                support. We placed an order to the UK and would definitely
+                                recommend friends to order from Woodendot!"
+                            </p>
+                            <p class="review__author">R. Aoun, United Kingdom</p>
+                        </div>
+                        <div class="swiper-slide review__slide">
+                            <p class="review__text">
+                                "The team from Woodendot has displayed utmost professionalism from order to deliver and customer
+                                support. We placed an order to the UK and would definitely
+                                recommend friends to order from Woodendot!"
+                            </p>
+                            <p class="review__author">R. Aoun, United Kingdom</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="concept">
         <div class="container">
             <ul class="concept__list list">
@@ -390,6 +410,8 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./scripts/swiper.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
 
