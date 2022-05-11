@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    color: $main-black-color;
+    background-color: #f7f7f7;
+    font-family: 'Cardo', sans-serif;
+}
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
